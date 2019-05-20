@@ -1,4 +1,4 @@
-﻿using AYam.Common.ViewModel;
+﻿using AYam.Common.MVVM;
 using CalendarSample.Pages.Model.Class;
 using System;
 using System.Collections.ObjectModel;
@@ -9,7 +9,7 @@ namespace CalendarSample.Pages.ViewModel
     /// <summary>
     /// Calendar.ViewModel
     /// </summary>
-    public class Calendar : VMBase, IDisposable
+    public class Calendar : ViewModelBase, IDisposable
     {
 
         /// <summary>

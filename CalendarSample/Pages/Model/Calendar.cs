@@ -1,4 +1,4 @@
-﻿using AYam.Common.ViewModel;
+﻿using AYam.Common.MVVM;
 using CalendarSample.Pages.Model.Class;
 using System;
 using System.Collections.Generic;

@@ -1,4 +1,4 @@
-﻿using AYam.Common.ViewModel;
+﻿using AYam.Common.MVVM;
 using System.Windows.Media;
 
 namespace CalendarSample.Pages.Model.Class
@@ -7,7 +7,7 @@ namespace CalendarSample.Pages.Model.Class
     /// <summary>
     /// 日付情報クラス
     /// </summary>
-    public class DayInfo : VMBase
+    public class DayInfo : ViewModelBase
     {
 
         #region Property

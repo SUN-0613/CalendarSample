@@ -1,4 +1,4 @@
-﻿using AYam.Common.ViewModel;
+﻿using AYam.Common.MVVM;
 using System;
 
 namespace CalendarSample.Forms.ViewModel
@@ -7,7 +7,7 @@ namespace CalendarSample.Forms.ViewModel
     /// <summary>
     /// カレンダ.ViewModel
     /// </summary>
-    public class MainWindow : VMBase, IDisposable
+    public class MainWindow : ViewModelBase, IDisposable
     {
 
         /// <summary>
